@@ -26,7 +26,7 @@ public class Formation {
 	
 	@Column(name="title", length=20)
 	@NotNull
-	@Size(min = 5, max = 20)
+	@Size(min = 3, max = 20)
 	private String title;
 	
 	@Column(name="formateur", length=20)

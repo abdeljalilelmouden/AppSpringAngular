@@ -25,11 +25,11 @@ public class GestionFormationApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		repositoryRestConfiguration.exposeIdsFor(Formation.class);
-		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
-		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
-		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
-		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
-		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "Devenez développeur d'applications avec Java, l'un des langages les plus utilisés au monde.", "java jee et angular", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "php", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "oracle", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "big data", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "python", "Abdeljalil", new Date(), new Date(), "200DH"));
 		
 	}
 
