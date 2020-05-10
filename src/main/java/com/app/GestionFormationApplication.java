@@ -26,6 +26,10 @@ public class GestionFormationApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		repositoryRestConfiguration.exposeIdsFor(Formation.class);
 		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
+		formationRepository.save(new Formation(null, "description", "title", "Abdeljalil", new Date(), new Date(), "200DH"));
 		
 	}
 

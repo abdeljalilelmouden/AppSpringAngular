@@ -21,7 +21,7 @@ public class Formation {
 	
 	@Column(name="description", length=100)
 	@NotNull
-	@Size(min = 5, max = 15)
+	@Size(min = 5, max = 100)
 	private String description;
 	
 	@Column(name="title", length=20)
@@ -44,7 +44,7 @@ public class Formation {
 	
 	@Column(name="prix", length=20)
 	@NotNull
-	@Size(min = 3, max = 20)
+	@Size(min = 5, max = 20)
 	private String prix;
 	
 
