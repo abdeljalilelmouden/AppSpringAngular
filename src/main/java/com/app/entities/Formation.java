@@ -21,17 +21,17 @@ public class Formation {
 	
 	@Column(name="description", length=100)
 	@NotNull
-	@Size(min = 5, max = 100)
+	@Size(min = 3, max = 200)
 	private String description;
 	
 	@Column(name="title", length=20)
 	@NotNull
-	@Size(min = 3, max = 20)
+	@Size(min = 3, max = 40)
 	private String title;
 	
 	@Column(name="formateur", length=20)
 	@NotNull
-	@Size(min = 5, max = 20)
+	@Size(min = 3, max = 40)
 	private String formateur;
 	 
 	@Temporal(TemporalType.DATE)
@@ -44,7 +44,7 @@ public class Formation {
 	
 	@Column(name="prix", length=20)
 	@NotNull
-	@Size(min = 5, max = 20)
+	@Size(min = 3, max = 40)
 	private String prix;
 	
 
